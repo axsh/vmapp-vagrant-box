@@ -1,7 +1,7 @@
-vmapp-vagrant-base-box
-======================
+vmapp-vagrant-box
+==================
 
-`vmapp-vagrant-base-box` builds a [vagrant](http://www.vagrantup.com/) base box machine image.
+vmapp-vagrant-box is a tool for building custom [Vagrant](http://www.vagrantup.com/) boxes.
 
 System Requirements
 -------------------
@@ -12,7 +12,7 @@ Installation
 ------------
 
 ```
-$ git clone https://github.com/axsh/vmapp-vagrant-base-box.git
+$ git clone https://github.com/axsh/vmapp-vagrant-box.git
 ```
 
 Getting Started
