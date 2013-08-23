@@ -11,7 +11,7 @@ declare chroot_dir=$1
 configure_virtualbox ${chroot_dir}
 
 #### vargrant
-chroot $1 $SHELL <<'EOS'
+chroot $1 $SHELL -ex <<'EOS'
   # Vagrant Downloads
   # - http://downloads.vagrantup.com/
   # x 1.2.7
